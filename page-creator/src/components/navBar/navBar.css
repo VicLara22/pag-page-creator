@@ -1,15 +1,4 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
-:root {
-	--mainColor: #0D2137;
-	--mainColorLight:#aad4e6;
-	--secondaryColor:#FF8E2B;
-	--textColor: #eee;
-}
 
 header {
 	display: flex;
@@ -17,7 +6,7 @@ header {
 	justify-content: space-between;
 	height: 90px;
 	padding: 0 2rem;
-	background-color: var(--mainColor);
+	background-color: var(--color-primario);
 	color: var(--textColor);
 }
 
@@ -43,7 +32,7 @@ header {
 }
 
 .link:hover {
-	color: var(--secondaryColor);
+	color: var(--color-secundario);
 }
 
 header .nav-btn{
@@ -82,7 +71,7 @@ nav {
 		align-items: center;
 		justify-content: center;
 		gap: 1.5rem;
-		background-color: var(--mainColor);
+		background-color: var(--color-primario);
 		transition: 1.5s;
 	}
 

@@ -1,0 +1,14 @@
+{
+    "plans": [
+        {
+            "id": 1,
+            "title": "Landing Page",
+            "description": "Es una página diseñada para destacar un mensaje clave y motivar a tus visitantes a tomar una acción específica. Captura la atención y dirige a los usuarios hacia lo que realmente importa, ya sea una suscripción, descarga o compra."
+        },
+        {
+            "id": 2,
+            "title": "Pagina web",
+            "description": "Aca podes mostrar tu identidad y ofrecer información detallada sobre tus servicios. Es donde los visitantes pueden aprender más sobre lo que haces, tu historia y cómo pueden ponerse en contacto con vos"
+        }
+    ]
+}

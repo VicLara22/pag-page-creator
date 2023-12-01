@@ -1,0 +1,27 @@
+.plans {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    background-color: var(--color-primario);
+}
+
+.container-plans{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 20vh;
+}
+
+.container-plans-title h1{
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.container-plans-subtitle h2{
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
