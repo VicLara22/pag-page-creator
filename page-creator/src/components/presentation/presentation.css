@@ -20,7 +20,7 @@
     align-items: start;
     height: 60vh;
     width: 85%;
-    padding: 80px;
+    padding: 100px;
 }
 
 .container-presentation-text h1 {
@@ -82,7 +82,7 @@
     width: 400px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 767px) {
     .container-banner{
         background-image: url("../../assets/banner.png");
         background-position: center;
@@ -106,16 +106,16 @@
     }
 
     .container-presentation-btn-CTA button {
-       width: 350px;
+       width: 250px;
          
      }
 
     .container-presentation-text h1 {
-        font-size: 5rem; 
+        font-size: 4rem; 
     }
 
     .container-presentation-text h2 {
-        font-size: 4rem; 
+        font-size: 3.5rem; 
         line-height: 1;
 
     }
@@ -129,5 +129,34 @@
         font-size: 2rem; 
         line-height: 1;
         width: 300px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .container-banner{
+        background-image: url("../../assets/banner.png");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .container-presentation-text {
+        padding-right: 30px;
+    }
+    .container-presentation-text h1 {
+        font-size: 5rem; 
+    }
+    .container-presentation-text h2 {
+        font-size: 4rem; 
+    }
+    .container-presentation-text h3 {
+        font-size: 2rem; 
+        line-height: 1;
+        width: 400px;
+        margin-top: 60px;
+    }
+    .container-presentation-text h4 {
+        font-size: 2rem; 
+        line-height: 1;
+        width: 400px;
     }
 }

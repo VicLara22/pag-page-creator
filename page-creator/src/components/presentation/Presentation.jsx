@@ -1,5 +1,4 @@
 import React from 'react';
-import img from '../../assets/banner.png';
 import './presentation.css';
 
 function Presentation() {

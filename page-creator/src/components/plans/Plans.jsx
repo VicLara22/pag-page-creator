@@ -3,6 +3,7 @@ import './plans.css';
 import PlansCard from './plansCard/PlansCard';
 import data from '../../data/dataCard.json';
 
+
 function Plans() {
 
 
@@ -16,7 +17,8 @@ function Plans() {
                     <h2>Selecciona la opción que mejor se acomode a tus metas.</h2>
                 </div>
             </div>
-            <div>{
+        
+            <div className='container-plans-cards'>{
                 data.plans.map((d) => (
                     <PlansCard
                     key={d.id}
