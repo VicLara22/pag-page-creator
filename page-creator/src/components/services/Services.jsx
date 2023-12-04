@@ -26,7 +26,8 @@ function Services() {
                     <p>Implementamos prácticas de SEO para mejorar la visibilidad de tu sitio web, aumentando su clasificación en los motores de búsqueda y atrayendo tráfico relevante. </p>
                 </div>
             </div>
-            <div className='container-services-text'>  <h3>En Page Creator, no solo creamos páginas web; creamos soluciones digitales que impulsan tu éxito. Confía en nosotros para llevar tu presencia en línea al siguiente nivel. <br />¡Convierte visitantes en clientes y haz crecer tu negocio hoy!</h3></div>
+            <div className='container-services-text'>
+                <h3>En Page Creator, no solo creamos páginas web; creamos soluciones digitales que impulsan tu éxito. Confía en nosotros para llevar tu presencia en línea al siguiente nivel. <br />¡Convierte visitantes en clientes y haz crecer tu negocio hoy!</h3></div>
             <div className='container-services-btn'>
                 <div className='container-services-btn-plans'>
                     <button>VER PLANES</button>
