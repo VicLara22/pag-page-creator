@@ -6,7 +6,7 @@
 
 .container-banner {
     background-image: url("../../assets/banner.png");
-    background-repeat: repeat;
+    background-repeat:no-repeat;
     background-size: cover;
     transform: scaleX(-1);
     width: auto;
@@ -17,7 +17,7 @@
     transform: scaleX(-1);
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start; 
     height: 60vh;
     width: 85%;
     padding: 100px;
