@@ -14,7 +14,9 @@ function PlansCard({ id, title, description }) {
           </p>
         </div>
         <div className='container-plansCard-btn'>
-          <button>Saber mas</button>
+          <div className='container-plansCard-btn'>
+            <button>Saber mas</button>
+          </div>
         </div>
       </div>
     </section>
