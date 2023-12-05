@@ -1,0 +1,262 @@
+.plansComplete {
+    width: 100%;
+    height: 200vh;
+    padding: 0;
+    background-color: var(--textColor);
+}
+
+.title-principal-plansComplete {
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    padding: 80px;
+ 
+}
+
+.title-principal-plansComplete h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--color-primario);
+}
+
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 50px;
+}
+
+.contenedor-precio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    padding: 10px;
+}
+
+.columna1,
+.columna2 {
+    padding: 20px;
+    border: 2px solid var(--color-secundario);
+    background-color: var(--textColor);
+    border-radius: 20px;
+}
+
+.columna1-precio,
+.columna2-precio {
+    padding: 20px;
+    border: 2px solid var(--color-secundario);
+    background-color: var(--textColor);
+    border-radius: 20px;
+}
+
+.container-plansComplete-title {
+    padding: 20px;
+}
+
+.container-plansComplete-title h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: var(--color-primario);
+    font-weight: 600;
+}
+
+.container-plansComplete-title p {
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: justify;
+    color: var(--color-secundario);
+}
+
+.container-plansComplete-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.container-plansComplete-lista h3 {
+    font-size: 1.8rem;
+    text-align: center;
+    color: var(--color-primario);
+    font-weight: 600;
+}
+
+.container-plansComplete-lista ul {
+    padding-left: 30px;
+    padding-top: 10px;
+
+}
+
+.container-plansComplete-lista li {
+    font-size: 1.2rem;
+    color: var(--color-primario);
+}
+
+
+.container-plansComplete-containers h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--color-primario);
+
+}
+
+.contenedor-precio {
+    padding-bottom: 20px;
+}
+
+
+.contenedor-precio p {
+    color: var(--color-primario);
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.contenedor-precio button {
+    border: 2px solid var(--color-secundario);
+    ;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    color: var(--color-secundario);
+    font-weight: 600;
+    transition: 0.4s ease-in-out;
+}
+
+.contenedor-precio button:hover {
+    background-color: var(--color-secundario);
+    color: var(--textColor);
+    cursor: pointer;
+}
+
+.container-plansComplete-abono {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid var(--color-secundario);
+    border-radius: 20px;
+    text-align: justify;
+}
+
+
+.container-plansComplete-abono h1 {
+    font-size: 2rem;
+    color: var(--color-primario);
+    font-weight: 600;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container-plansComplete-abono-ul {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.container-plansComplete-abono-ul ul {
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.container-plansComplete-abono-ul li {
+    font-size: 1.2rem;
+    line-height: 2;
+    color: var(--color-primario);
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .plansComplete {
+        height: auto;
+    }
+
+    .title-principal-plansComplete h1 {
+        font-size: 1.2rem;
+    }
+
+    .contenedor {
+        grid-template-columns: 1fr;
+    }
+
+    .contenedor-precio {
+        grid-template-columns: 1fr;
+    }
+
+    .columna1-precio,
+    .columna2-precio {
+        padding: 10px;
+    }
+
+    .container-plansComplete-title h1 {
+        font-size: 1.5rem;
+    }
+
+    .container-plansComplete-title p {
+        font-size: 0.8rem;
+    }
+
+    .container-plansComplete-lista h3 {
+        font-size: 1.2rem;
+    }
+
+    .container-plansComplete-lista ul {
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+
+    .container-plansComplete-lista li {
+        font-size: 0.8rem;
+    }
+
+    .contenedor-precio {
+        padding-bottom: 20px;
+    }
+
+
+    .contenedor-precio p {
+        font-size: 0.8rem;
+    }
+
+    .container-plansComplete-containers h2 {
+        font-size: 1rem;
+    }
+
+    .contenedor-precio button {
+        font-size: 1.2rem;
+    }
+
+
+    .container-plansComplete-abono h1 {
+        font-size: 1.5rem;
+    }
+
+    .container-plansComplete-abono-ul {
+        width: auto;
+        margin-left: auto;
+    }
+
+    .container-plansComplete-abono-ul ul {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .container-plansComplete-abono-ul li {
+        font-size: 0.8rem;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .contenedor-precio {
+        grid-template-columns: 1fr;
+    }
+
+
+
+}
