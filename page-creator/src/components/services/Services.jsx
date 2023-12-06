@@ -23,7 +23,7 @@ function Services() {
                 </div>
                 <div className='container-services-card'>
                     <h2>Optimización para Motores de Búsqueda (SEO):</h2>
-                    <p>Implementamos prácticas de SEO para mejorar la visibilidad de tu sitio web, aumentando su clasificación en los motores de búsqueda y atrayendo tráfico relevante. </p>
+                    <p>Implementamos prácticas de SEO para mejorar la visibilidad de tu sitio web, aumentando su clasificación en los motores de búsqueda. </p>
                 </div>
             </div>
             <div className='container-services-text'>

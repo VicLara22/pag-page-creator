@@ -17,15 +17,17 @@ function PlansComplete() {
               <p>Una landing page tiene un objetivo principal: convertir a los visitantes en clientes. Se utiliza comúnmente en campañas de marketing y publicidad. La landing page se centra en una oferta específica, producto o acción que se desea que el visitante realice, como completar un formulario, comprar un producto, etc. Suele tener un diseño simple y directo, con un llamado a la acción (CTA) claro. El contenido y diseño de la landing page están optimizados para lograr altas tasas de conversión. </p>
             </div>
             <div className='container-plansComplete-lista'>
-              <h3>¿Que cubre este plan?</h3>
+              <h3>Características </h3>
               <ul>
-                <li>Formulario de contacto</li>
-                <li>Enlace a redes sociales</li>
-                <li>Boton de wpp</li>
-                <li>Optimizacion para google </li>
-                <li>Dominio</li>
-                <li>Hosting</li>
-                <li>Diseño responsive</li>
+                <li>Formulario de contacto para facilitar la interacción con tus visitantes.</li>
+                <li>Enlaces a tus redes sociales para una mayor presencia en línea.</li>
+                <li>Botón de WhatsApp para una comunicación directa</li>
+                <li>Optimización para Google, mejorando la visibilidad en los motores de búsqueda.</li>
+                <li>Hosting para garantizar un rendimiento eficiente.</li>
+                <li>Diseño responsive, asegurando una experiencia óptima en diferentes dispositivos.</li>
+                <br/>
+                <br/>
+
               </ul>
             </div>
             <div className="contenedor-precio">
@@ -50,17 +52,16 @@ function PlansComplete() {
 
             </div>
             <div className='container-plansComplete-lista'>
-              <h3>¿Que cubre este plan?</h3>
+              <h3>Características</h3>
               <ul>
-                <li>Hasta 4 paginas internas </li>
-                <li> Buscador de productos </li>
-                <li>Formulario de contacto</li>
-                <li>Enlace a redes sociales</li>
-                <li>Boton de wpp</li>
-                <li>Optimizacion para google </li>
-                <li>Dominio</li>
-                <li>Hosting</li>
-                <li>Diseño responsive</li>
+                <li>Hasta 4 paginas internas</li>
+                <li>Implementación de un buscador de productos</li>
+                <li>Formulario de contacto para facilitar la interacción con tus visitantes.</li>
+                <li>Enlaces a tus redes sociales para una mayor presencia en línea.</li>
+                <li>Botón de WhatsApp para una comunicación directa</li>
+                <li>Optimización para Google, mejorando la visibilidad en los motores de búsqueda.</li>
+                <li>Hosting para garantizar un rendimiento eficiente.</li>
+                <li>Diseño responsive, asegurando una experiencia óptima en diferentes dispositivos.</li>
               </ul>
             </div>
             <div className="contenedor-precio">
@@ -83,10 +84,8 @@ function PlansComplete() {
           <h1>¿Que incluye el abono mensual?</h1>
           <div className='container-plansComplete-abono-ul'>
           <ul>
-            <li>Hosting: alojamiento para tu pag wew para que este activa 24/7</li>
-            <li>Estadisticas de visitas: a traves de Google Analystics</li>
-            <li>Seguridad: Certificado SSL </li>
-            <li>Mantenimiento - actualziacion de la pagina</li>
+            <li>Hosting: Alojamiento para tu página web, manteniéndola activa las 24 horas, los 7 días de la semana.</li>
+            <li>Mantenimiento: Incluye la actualización periódica de la página para asegurar un rendimiento óptimo.</li>
           </ul>
           </div>
         </div>

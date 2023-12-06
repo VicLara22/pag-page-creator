@@ -43,7 +43,7 @@ function NavBar() {
       <div className='container-navbar-img '>
         <img src={Logo} alt='logotipo' />
       </div>
-
+ 
       <nav ref={navRef}>
 {/* lara */}
         {links.map(l => (

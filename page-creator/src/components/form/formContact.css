@@ -1,0 +1,190 @@
+.container-contacto-title {
+    padding: 20px;
+    width: auto;
+}
+
+
+.container-contacto-h1 {
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+}
+
+.sectionFormContact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    max-width: 800px;
+    border: 2px solid var(--color-secundario);
+    border-radius: 20px;
+    padding: 50px;
+}
+
+
+label {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1em;
+    color: var(--textColor);
+}
+
+input {
+    height: 35px;
+    width: 350px;
+    color: var(--textColor);
+    background-color: var(--color-primario);
+    border: 2px solid var(--color-secundario);
+    border-radius: 5px;
+    font-size: 1em;
+    padding-left: 20px;
+}
+
+textarea {
+    background-color: var(--color-primario);
+    height: 125px;
+    width: 360px;
+    color: var(--textColor);
+    border: 2px solid var(--color-secundario);
+    border-radius: 5px;
+    font-size: 1em;
+    padding-left: 10px;
+}
+
+.btnEnviar {
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    margin-top: auto;
+    padding-top: 50px;
+}
+
+.btnEnviar button {
+    width: 200px;
+    height: 40px;
+    border: 2px solid var(--color-secundario);
+    ;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    color: var(--textColor);
+    font-weight: 600;
+    transition: 0.4s ease-in-out;
+    background-color: var(--color-secundario);
+}
+
+button:hover {
+    background-color: var(--textColor);
+    color: var(--color-secundario);
+    cursor: pointer;
+}
+
+span {
+    color: red;
+    padding-left: 5px;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+}
+
+input.error {
+    border: 1px solid red;
+    transition: 0.4s;
+}
+
+textarea.error {
+    border: 1px solid red;
+    transition: 0.4s;
+}
+
+.inputField::placeholder {
+    font-size: 1rem;
+    color: rgb(153, 153, 153);
+}
+
+@media only screen and (max-width: 767px) {
+
+    .sectionFormContact {
+        padding-left: auto;
+        padding-right: auto;
+        padding-bottom: auto;
+        padding-top: auto;
+
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        width:auto;
+        max-width:auto;
+    }
+
+
+    label {
+        display: flex;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 1em;
+        color: var(--textColor);
+    }
+
+    input {
+        width:auto;
+    }
+
+    textarea {
+        width: 208px;
+    }
+
+   
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .sectionFormContact {
+        padding-left: auto;
+        padding-right: auto;
+        padding-bottom: auto;
+        padding-top: auto;
+
+    }
+
+    form {
+        width:auto;
+        max-width:auto;
+    }
+
+
+    label {
+        display: flex;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 1em;
+        color: var(--textColor);
+    }
+
+    input {
+        width:auto;
+    }
+
+    textarea {
+        width: 208px;
+    }
+
+   
+}
