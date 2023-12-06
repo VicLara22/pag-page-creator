@@ -13,6 +13,7 @@ function Home() {
       <Presentation/>
       <Services/>
       <Plans/>
+      <Footer/>
     </div>
   )
 }

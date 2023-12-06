@@ -16,3 +16,7 @@
  --textColor: #eee;
 }
 
+body {
+
+  overflow: auto;
+}

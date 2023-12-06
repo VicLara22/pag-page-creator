@@ -6,7 +6,8 @@
 }
 
 .container-Contact h1{
-    padding-top: 80px;
+    padding-top: 150px;
+    padding-bottom: 50px;
     font-size: 1.5rem;
     text-align: center;
     color: var(--textColor);
